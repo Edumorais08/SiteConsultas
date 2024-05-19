@@ -1,0 +1,23 @@
+.home__container {
+    display: flex;
+    gap: 1em;
+    padding: 2em 1em;
+    align-items: center;
+}
+
+.home__imagem {
+    width: 3.563em;
+    border-radius: 50%;
+}
+
+.home__titulo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cor-primaria);
+    padding-bottom: 0.3em;
+}
+
+.home__texto {
+    font-weight: 400;
+    color: var(--cinza);
+}
