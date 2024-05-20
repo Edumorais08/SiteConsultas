@@ -21,3 +21,19 @@
     font-weight: 400;
     color: var(--cinza);
 }
+
+@media screen and (min-width: 1440px) {
+
+    .home__imagem {
+        width: 6em;
+    }
+    
+    .home__titulo {
+        font-size: 31px;
+    }
+
+    .home__texto {
+        font-size: 18px;
+    }
+
+}

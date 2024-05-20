@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 1em;
     padding-bottom: 2em;
+    padding-top: 1em;
 }
 
 .consultas-lista__titulo {
@@ -93,7 +94,7 @@ hr {
 
 .card__botao {
     border-radius: 8px;
-    width: 8.688em;
+    width: 33%;
     padding: 1.5em;
     text-align: center;
     text-decoration: none;
@@ -115,4 +116,60 @@ hr {
     background-color: var(--botao-azul);
     color: var(--branco);
     width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+
+    .consultas-lista {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding-bottom: 2em;
+        width: 100%;
+    }
+
+    .consultas__card {
+        width: 40%;
+        margin-left: 2em;
+        margin-bottom: 2.5em;
+    }
+
+    .consultas-lista__titulo {
+        padding-left: 1.8em;
+
+    }
+
+    .amarelo,
+    .branco {
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .consultas__card {
+        width: 25%;
+        margin-left: 2em;
+        margin-top: 3em;
+    }
+
+    .card__imagem {
+        border-radius: 50%;
+        width: 3em;
+        height: 3em;
+    }
+
+    .card__nome {
+        font-size: 18px;
+    }
+
+    .card__horario {
+        font-size: 14px;
+    }
+
+    .card__botao {
+        font-size: 16px;
+    }
+
 }

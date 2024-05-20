@@ -36,3 +36,12 @@
 .azul {
     color: var(--botao-azul);
 }
+
+@media screen and (min-width: 768px) {
+
+    .rodape {
+        justify-content: center;
+        gap: 2.25em;
+    }
+
+}
